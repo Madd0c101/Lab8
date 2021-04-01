@@ -6,11 +6,14 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
+import org.slf4j.MDC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.sql.DataSource;
@@ -23,7 +26,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+@ActiveProfiles({"test"})
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = JpaApplication.class)
 //@TestConfiguration
@@ -31,6 +34,10 @@ import org.slf4j.LoggerFactory;
 @EntityScan(basePackageClasses = jdev.server.dao.TrackBase.class)
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
+@TestPropertySource(value = {
+        "classpath:application.properties",
+        "classpath:application-test.properties"
+})
 public class JpaApplicationTest {
     private static final Logger log = LoggerFactory.getLogger(JpaApplicationTest.class);
     @Autowired
@@ -43,7 +50,7 @@ public class JpaApplicationTest {
     public void run() throws Exception {
         JpaApplication j = new JpaApplication();
         j.path = "..\\tracker-core\\src\\main\\resources\\log_file.log";
-        //не сработает, нужно раскомментировать строку в классе JPAApplicationTest
+        //не сработает, нужно раскомментировать строку в классе JPAApplication
         j.run();
         boolean result=false;
         for (int i = 0; i < j.out2.length; i++) {

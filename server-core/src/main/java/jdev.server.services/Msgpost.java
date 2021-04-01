@@ -6,6 +6,7 @@ import jdev.domain.RestRequest;
 import jdev.server.main.controllers.CounterController_SRV;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.MDC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
@@ -23,6 +24,7 @@ import jdev.server.main.Application;
 @Service
 public class Msgpost {
     private static final Logger log = LoggerFactory.getLogger(Msgpost.class);
+    private static String Head=Msgpost.class.getSimpleName();
     private long previous;
     public static RestRequest request = new RestRequest();
 
@@ -40,6 +42,7 @@ if (JpaApplication.inc>=JpaApplication.out2.length) {
 }
             request.setCoord(JpaApplication.out2[JpaApplication.inc]);
                 CounterController_SRV.post(JpaApplication.out2[JpaApplication.inc], request);
+            MDC.put("Head", Head);
                 log.info("posted: " + JpaApplication.out2[JpaApplication.inc]+" "+JpaApplication.inc.toString());
        //     }
         } catch (NullPointerException e) {

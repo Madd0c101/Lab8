@@ -4,6 +4,7 @@ import jdev.domain.Response;
 import jdev.domain.RestRequest;
 import jdev.server.jpa.JpaApplication;
 import jdev.server.main.controllers.CounterController_SRV;
+import org.slf4j.MDC;
 import org.springframework.stereotype.Service;
 
 //import jdev.tracker.services.ResponseTick.JForm;
@@ -26,6 +27,7 @@ import static jdev.server.main.controllers.CounterController_SRV.restTemplate;
 public class getcoord {
 
     private static final Logger log = LoggerFactory.getLogger(getcoord.class);
+    private static String Head=getcoord.class.getSimpleName();
     private static Integer i = 0;
     public static String position;
     public static Response result;
@@ -60,6 +62,7 @@ public class getcoord {
 
         ObjectMapper mapper = new ObjectMapper();
         String json = mapper.writeValueAsString(request.getCoord());
+        MDC.put("Head", Head);
        log.info("POST by tracker: {}", json);
         JpaApplication.inc++;
         return json;

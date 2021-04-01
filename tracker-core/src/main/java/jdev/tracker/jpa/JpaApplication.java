@@ -4,6 +4,7 @@ import jdev.tracker.dao.TrackBase;
 import jdev.tracker.dao.repo.TrackBaseRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.MDC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -29,6 +30,7 @@ import javax.annotation.PostConstruct;
 public class JpaApplication implements CommandLineRunner {
 
     private static final Logger log = LoggerFactory.getLogger(JpaApplication.class);
+    private String Head="Tracker_"+JpaApplication.class.getSimpleName();
     private List<TrackBase> all;
     private static List<TrackBase> lines;
     private String TrackLine="";
@@ -43,7 +45,7 @@ public class JpaApplication implements CommandLineRunner {
     private static String line;
     public static String[] out2;
     public static TrackBase[] arr;
-    //public static String path="tracker-core\\src\\main\\resources\\log_file.log"; //RUN PATH
+   // public static String path="tracker-core\\src\\main\\resources\\log_file.log"; //RUN PATH
      public static String path="..\\tracker-core\\src\\main\\resources\\log_file.log"; //TEST PATH
     public static void main(String[] args) {
         SpringApplication.run(JpaApplication.class, args);
@@ -100,7 +102,7 @@ public class JpaApplication implements CommandLineRunner {
             catch (NullPointerException e3){
                 e3.printStackTrace();
             }
-
+        MDC.put("Head", Head);
             log.info("=========== after create");
             try {
                 read();

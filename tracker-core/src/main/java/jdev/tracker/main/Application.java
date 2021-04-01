@@ -27,13 +27,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @EnableJpaRepositories("jdev.tracker.dao")
 @EntityScan(basePackageClasses = jdev.tracker.dao.TrackBase.class)
-@ComponentScan({"jdev.tracker","jdev.tracker.services","jdev.server"})
+@ComponentScan({"jdev.tracker","jdev.tracker.services"})
 public class Application {
 
     public static void main(String[] args) {
-     //   SpringApplication.run(Application.class, args);
         SpringApplication.run(JpaApplication.class, args);
-        ApplicationContext context = new AnnotationConfigApplicationContext(InjectionContext.class);
+       // ApplicationContext context = new AnnotationConfigApplicationContext(InjectionContext.class);
         //SpringApplication.run(jdev.server.main.Application.class, args);
     }
     @Bean

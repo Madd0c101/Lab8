@@ -1,5 +1,6 @@
 package jdev.tracker.services;
 import com.maxmind.geoip.LookupService;
+import org.slf4j.MDC;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.stereotype.Component;
@@ -28,10 +29,11 @@ public class GPSservice {
     private Float la,lo;
     private Integer rand1,rand2,rand3;
     private static final Logger log = LoggerFactory.getLogger(GPSservice.class);
+    private String Head=GPSservice.class.getSimpleName();
     @PostConstruct
     @Scheduled(cron= "${cron.prop}")
     public void job() throws InterruptedException {
-
+        MDC.put("Head", Head);
         try {
             Random objGenerator = new Random();
             LookupService cl = new LookupService("tracker-core\\src\\main\\resources\\GeoLiteCity.dat",

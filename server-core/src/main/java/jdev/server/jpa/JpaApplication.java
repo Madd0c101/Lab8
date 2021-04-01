@@ -1,10 +1,18 @@
 package jdev.server.jpa;
 
+import ch.qos.logback.classic.Level;
+import ch.qos.logback.classic.LoggerContext;
+import ch.qos.logback.classic.encoder.PatternLayoutEncoder;
+import ch.qos.logback.classic.spi.ILoggingEvent;
+import ch.qos.logback.classic.util.ContextInitializer;
+import ch.qos.logback.core.ConsoleAppender;
+import ch.qos.logback.core.joran.spi.JoranException;
 import jdev.server.dao.TrackBase;
 import jdev.server.dao.repo.TrackBaseRepository;
 import jdev.server.services.Msgpost;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.MDC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -17,6 +25,7 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import java.io.*;
+import java.net.URL;
 import java.util.*;
 
 import org.springframework.scheduling.annotation.Scheduled;
@@ -29,6 +38,7 @@ import javax.annotation.PostConstruct;
 public class JpaApplication implements CommandLineRunner {
 
     private static final Logger log = LoggerFactory.getLogger(JpaApplication.class);
+    private String Head=JpaApplication.class.getSimpleName();
     private static List<TrackBase> all;
     private static List<TrackBase> lines;
     private String TrackLine="";
@@ -107,7 +117,7 @@ public class JpaApplication implements CommandLineRunner {
         catch (NullPointerException e3){
             e3.printStackTrace();
         }
-
+        MDC.put("Head", Head);
         log.info("=========== after create");
         try {
             read();
@@ -159,17 +169,16 @@ catch (NullPointerException n)
     private void read() {
         try {
             all = (List<TrackBase>) trackBaseRepository.findAll();
-        }
-        catch (NullPointerException n)
-        {
+        } catch (NullPointerException n) {
             n.printStackTrace();
         }
 
         if (all.size() == 0) {
-            log.info("NO RECORDS");
+            log.info("NO RECORDS",log);
         }
 
         all.stream().forEach(base -> log.info(base.toString()));
+
     }
 
     private TrackBase create(Float lat, Float lon, String country, String city) {

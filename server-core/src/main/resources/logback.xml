@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true">
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </layout>
+    </appender>
+
+    <appender name="SIFTER" class="ch.qos.logback.classic.sift.SiftingAppender">
+        <discriminator>
+            <key>Head</key>
+            <defaultValue>ALL</defaultValue>
+        </discriminator>
+        <sift>
+            <appender name="FILE-${Head}" class="ch.qos.logback.core.FileAppender">
+                <file>server-core/src/main/resources/db/changelog/Log_Test_${Head}.log</file>
+
+                <encoder>
+                    <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+                    </pattern>
+                </encoder>
+            </appender>
+        </sift>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="SIFTER"/>
+    </root>
+
+</configuration>

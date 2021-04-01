@@ -75,6 +75,8 @@ project(':server-core') {
         compile("org.springframework.boot:spring-boot-devtools")
         testCompile("org.springframework.boot:spring-boot-starter-test")
         compile("org.springframework.boot:spring-boot-starter-data-jpa")
+        compile("ch.qos.logback:logback-classic:1.2.3")
+        testcompile("ch.qos.logback:logback-classic:1.2.3")
        compile group: 'org.liquibase', name: 'liquibase-core', version: '3.5.3'
         compile group: 'com.h2database', name: 'h2', version: '1.4.195'
         testCompile("org.springframework.boot:spring-boot-starter-test")
@@ -161,6 +163,7 @@ project(':server-core') {
               testCompile("org.springframework.boot:spring-boot-starter-test")
               testCompile group: 'org.mockito', name: 'mockito-core', version: '2.7.22'
               compile group: 'javax', name: 'javaee-api', version: '7.0'
+          compile("ch.qos.logback:logback-classic:1.2.3")
        //   compile group: 'org.hibernate', name: 'hibernate-entitymanager', version: '4.3.8.Final'
         //  compile group: 'com.kalliphant.samples.springdata.jpa', name: 'CRUDSample', version: '0.0.1-SNAPSHOT'
 
