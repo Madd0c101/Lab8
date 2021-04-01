@@ -1,0 +1,188 @@
+21:20:38.789 [restartedMain] INFO  jdev.server.jpa.JpaApplication - =========== after create
+21:20:38.807 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+21:20:38.891 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6516, Lattitude=-30.954605, Longtitude=-58.783302, Country=Argentina, City=Federal }
+21:20:38.891 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6517, Lattitude=30.050003, Longtitude=31.25, Country=Egypt, City=Misr }
+21:20:38.891 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6518, Lattitude=35.7977, Longtitude=-78.6253, Country=United States, City=Raleigh }
+21:20:38.891 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6519, Lattitude=34.6409, Longtitude=-110.1126, Country=United States, City=Snowflake }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6520, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Beijing }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6521, Lattitude=37.376205, Longtitude=-122.1826, Country=United States, City=Palo Alto }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6522, Lattitude=35.994003, Longtitude=-78.8986, Country=United States, City=Durham }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6523, Lattitude=38.864, Longtitude=-77.1922, Country=United States, City=Falls Church }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6524, Lattitude=37.3042, Longtitude=-122.094604, Country=United States, City=Cupertino }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6525, Lattitude=43.149307, Longtitude=-77.5081, Country=United States, City=Rochester }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6526, Lattitude=29.752304, Longtitude=-95.367, Country=United States, City=Houston }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6527, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Beijing }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6528, Lattitude=30.666702, Longtitude=104.06671, Country=China, City=Chengdu }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6529, Lattitude=40.764893, Longtitude=-111.8434, Country=United States, City=Salt Lake City }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6530, Lattitude=37.7269, Longtitude=112.470795, Country=China, City=Taiyuan }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6531, Lattitude=42.079407, Longtitude=-91.5992, Country=United States, City=Cedar Rapids }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6532, Lattitude=-34.983307, Longtitude=138.5167, Country=Australia, City=Glenelg }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6533, Lattitude=17.375305, Longtitude=78.474396, Country=India, City=Hyderabad }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6534, Lattitude=32.061707, Longtitude=118.7778, Country=China, City=Nanjing }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6535, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Beijing }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6536, Lattitude=39.089203, Longtitude=-77.1835, Country=United States, City=Rockville }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6537, Lattitude=-15.783295, Longtitude=-47.916702, Country=Brazil, City=BrasÃ­lia }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6538, Lattitude=35.684998, Longtitude=139.7514, Country=Japan, City=Tokyo }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6539, Lattitude=37.376205, Longtitude=-122.1826, Country=United States, City=Palo Alto }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6540, Lattitude=37.376205, Longtitude=-122.1826, Country=United States, City=Palo Alto }
+21:20:38.892 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6541, Lattitude=42.079407, Longtitude=-91.5992, Country=United States, City=Cedar Rapids }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6542, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Beijing }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6543, Lattitude=55.298706, Longtitude=28.773895, Country=Belarus, City=Gomel }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6544, Lattitude=39.961197, Longtitude=-82.9988, Country=United States, City=Columbus }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6545, Lattitude=42.322296, Longtitude=-83.1763, Country=United States, City=Dearborn }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6546, Lattitude=23.1167, Longtitude=113.25, Country=China, City=Guangzhou }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6547, Lattitude=40.766205, Longtitude=-73.9862, Country=United States, City=New York }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6548, Lattitude=42.113693, Longtitude=-87.7609, Country=United States, City=Winnetka }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6549, Lattitude=32.807205, Longtitude=-117.1649, Country=United States, City=San Diego }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6550, Lattitude=51.482407, Longtitude=6.9747925, Country=Germany, City=Essen }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6551, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Beijing }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6552, Lattitude=35.994003, Longtitude=-78.8986, Country=United States, City=Durham }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6553, Lattitude=37.598495, Longtitude=126.9783, Country=Korea Republic of, City=Seoul }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6554, Lattitude=40.551605, Longtitude=-74.4637, Country=United States, City=Piscataway }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6555, Lattitude=39.162003, Longtitude=-84.4569, Country=United States, City=Cincinnati }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6556, Lattitude=39.961197, Longtitude=-82.9988, Country=United States, City=Columbus }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6557, Lattitude=17.375305, Longtitude=78.474396, Country=India, City=Hyderabad }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6558, Lattitude=35.7977, Longtitude=-78.6253, Country=United States, City=Raleigh }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6559, Lattitude=52.093796, Longtitude=5.119095, Country=Netherlands, City=Utrecht }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6560, Lattitude=-33.925797, Longtitude=18.423203, Country=South Africa, City=Cape Town }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6561, Lattitude=32.061707, Longtitude=118.7778, Country=China, City=Nanjing }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6562, Lattitude=31.863907, Longtitude=117.28079, Country=China, City=Hefei }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6563, Lattitude=41.127106, Longtitude=-73.4416, Country=United States, City=Norwalk }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6564, Lattitude=38.893295, Longtitude=-77.0146, Country=United States, City=Washington }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6565, Lattitude=37.752106, Longtitude=-97.2782, Country=United States, City=Wichita }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6566, Lattitude=-12.050003, Longtitude=-77.05, Country=Peru, City=Lima }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6567, Lattitude=36.750305, Longtitude=-96.0705, Country=United States, City=Bartlesville }
+21:20:38.893 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6568, Lattitude=47.300003, Longtitude=11.566696, Country=Austria, City=Baumkirchen }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6569, Lattitude=31.753006, Longtitude=-94.194, Country=United States, City=Center }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6570, Lattitude=37.376205, Longtitude=-122.1826, Country=United States, City=Palo Alto }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6571, Lattitude=48.916702, Longtitude=12.683304, Country=Germany, City=Bogen }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6572, Lattitude=25.0392, Longtitude=121.524994, Country=Taiwan, City=Taipei }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6573, Lattitude=19.434204, Longtitude=-99.1386, Country=Mexico, City=Mexico }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6574, Lattitude=37.7269, Longtitude=112.470795, Country=China, City=Taiyuan }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6575, Lattitude=38.884003, Longtitude=-77.0221, Country=United States, City=Washington }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6576, Lattitude=40.764893, Longtitude=-111.8434, Country=United States, City=Salt Lake City }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6577, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Beijing }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6578, Lattitude=39.961197, Longtitude=-82.9988, Country=United States, City=Columbus }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6579, Lattitude=41.141205, Longtitude=-73.2637, Country=United States, City=Fairfield }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6580, Lattitude=37.376205, Longtitude=-122.1826, Country=United States, City=Palo Alto }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6581, Lattitude=42.079407, Longtitude=-91.5992, Country=United States, City=Cedar Rapids }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6582, Lattitude=39.9597, Longtitude=-75.1968, Country=United States, City=Philadelphia }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6583, Lattitude=44.433304, Longtitude=26.100006, Country=Romania, City=Bucharest }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6584, Lattitude=40.0412, Longtitude=-86.8744, Country=United States, City=Crawfordsville }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6585, Lattitude=47.300003, Longtitude=11.566696, Country=Austria, City=Baumkirchen }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6586, Lattitude=30.752197, Longtitude=120.75, Country=China, City=Jiaxing }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6587, Lattitude=37.92, Longtitude=40.532806, Country=Turkey, City=AtakÃ¶y }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6588, Lattitude=25.0392, Longtitude=121.524994, Country=Taiwan, City=Taipei }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6589, Lattitude=40.551605, Longtitude=-74.4637, Country=United States, City=Piscataway }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6590, Lattitude=29.752304, Longtitude=-95.367, Country=United States, City=Houston }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6591, Lattitude=41.839005, Longtitude=-71.4373, Country=United States, City=Providence }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6592, Lattitude=36.668304, Longtitude=116.99719, Country=China, City=Jinan }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6593, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Beijing }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6594, Lattitude=39.961197, Longtitude=-82.9988, Country=United States, City=Columbus }
+21:20:38.894 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6595, Lattitude=46.5394, Longtitude=15.515793, Country=Slovenia, City=Ruse }
+21:20:38.895 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6596, Lattitude=23.1167, Longtitude=113.25, Country=China, City=Guangzhou }
+21:20:38.895 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6597, Lattitude=41.127106, Longtitude=-73.4416, Country=United States, City=Norwalk }
+21:20:38.895 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6598, Lattitude=40.551605, Longtitude=-74.4637, Country=United States, City=Piscataway }
+21:20:39.123 [restartedMain] INFO  jdev.server.jpa.JpaApplication - =========== after update
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6516, Lattitude=-30.954605, Longtitude=-58.783302, Country=Argentina, City=Rome }
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6517, Lattitude=30.050003, Longtitude=31.25, Country=Egypt, City=Rome }
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6518, Lattitude=35.7977, Longtitude=-78.6253, Country=United States, City=Rome }
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6519, Lattitude=34.6409, Longtitude=-110.1126, Country=United States, City=Rome }
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6520, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Rome }
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6521, Lattitude=37.376205, Longtitude=-122.1826, Country=United States, City=Rome }
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6522, Lattitude=35.994003, Longtitude=-78.8986, Country=United States, City=Rome }
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6523, Lattitude=38.864, Longtitude=-77.1922, Country=United States, City=Rome }
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6524, Lattitude=37.3042, Longtitude=-122.094604, Country=United States, City=Rome }
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6525, Lattitude=43.149307, Longtitude=-77.5081, Country=United States, City=Rome }
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6526, Lattitude=29.752304, Longtitude=-95.367, Country=United States, City=Rome }
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6527, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Rome }
+21:20:39.126 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6528, Lattitude=30.666702, Longtitude=104.06671, Country=China, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6529, Lattitude=40.764893, Longtitude=-111.8434, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6530, Lattitude=37.7269, Longtitude=112.470795, Country=China, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6531, Lattitude=42.079407, Longtitude=-91.5992, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6532, Lattitude=-34.983307, Longtitude=138.5167, Country=Australia, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6533, Lattitude=17.375305, Longtitude=78.474396, Country=India, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6534, Lattitude=32.061707, Longtitude=118.7778, Country=China, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6535, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6536, Lattitude=39.089203, Longtitude=-77.1835, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6537, Lattitude=-15.783295, Longtitude=-47.916702, Country=Brazil, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6538, Lattitude=35.684998, Longtitude=139.7514, Country=Japan, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6539, Lattitude=37.376205, Longtitude=-122.1826, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6540, Lattitude=37.376205, Longtitude=-122.1826, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6541, Lattitude=42.079407, Longtitude=-91.5992, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6542, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6543, Lattitude=55.298706, Longtitude=28.773895, Country=Belarus, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6544, Lattitude=39.961197, Longtitude=-82.9988, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6545, Lattitude=42.322296, Longtitude=-83.1763, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6546, Lattitude=23.1167, Longtitude=113.25, Country=China, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6547, Lattitude=40.766205, Longtitude=-73.9862, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6548, Lattitude=42.113693, Longtitude=-87.7609, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6549, Lattitude=32.807205, Longtitude=-117.1649, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6550, Lattitude=51.482407, Longtitude=6.9747925, Country=Germany, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6551, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6552, Lattitude=35.994003, Longtitude=-78.8986, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6553, Lattitude=37.598495, Longtitude=126.9783, Country=Korea Republic of, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6554, Lattitude=40.551605, Longtitude=-74.4637, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6555, Lattitude=39.162003, Longtitude=-84.4569, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6556, Lattitude=39.961197, Longtitude=-82.9988, Country=United States, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6557, Lattitude=17.375305, Longtitude=78.474396, Country=India, City=Rome }
+21:20:39.127 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6558, Lattitude=35.7977, Longtitude=-78.6253, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6559, Lattitude=52.093796, Longtitude=5.119095, Country=Netherlands, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6560, Lattitude=-33.925797, Longtitude=18.423203, Country=South Africa, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6561, Lattitude=32.061707, Longtitude=118.7778, Country=China, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6562, Lattitude=31.863907, Longtitude=117.28079, Country=China, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6563, Lattitude=41.127106, Longtitude=-73.4416, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6564, Lattitude=38.893295, Longtitude=-77.0146, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6565, Lattitude=37.752106, Longtitude=-97.2782, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6566, Lattitude=-12.050003, Longtitude=-77.05, Country=Peru, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6567, Lattitude=36.750305, Longtitude=-96.0705, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6568, Lattitude=47.300003, Longtitude=11.566696, Country=Austria, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6569, Lattitude=31.753006, Longtitude=-94.194, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6570, Lattitude=37.376205, Longtitude=-122.1826, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6571, Lattitude=48.916702, Longtitude=12.683304, Country=Germany, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6572, Lattitude=25.0392, Longtitude=121.524994, Country=Taiwan, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6573, Lattitude=19.434204, Longtitude=-99.1386, Country=Mexico, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6574, Lattitude=37.7269, Longtitude=112.470795, Country=China, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6575, Lattitude=38.884003, Longtitude=-77.0221, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6576, Lattitude=40.764893, Longtitude=-111.8434, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6577, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6578, Lattitude=39.961197, Longtitude=-82.9988, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6579, Lattitude=41.141205, Longtitude=-73.2637, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6580, Lattitude=37.376205, Longtitude=-122.1826, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6581, Lattitude=42.079407, Longtitude=-91.5992, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6582, Lattitude=39.9597, Longtitude=-75.1968, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6583, Lattitude=44.433304, Longtitude=26.100006, Country=Romania, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6584, Lattitude=40.0412, Longtitude=-86.8744, Country=United States, City=Rome }
+21:20:39.129 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6585, Lattitude=47.300003, Longtitude=11.566696, Country=Austria, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6586, Lattitude=30.752197, Longtitude=120.75, Country=China, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6587, Lattitude=37.92, Longtitude=40.532806, Country=Turkey, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6588, Lattitude=25.0392, Longtitude=121.524994, Country=Taiwan, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6589, Lattitude=40.551605, Longtitude=-74.4637, Country=United States, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6590, Lattitude=29.752304, Longtitude=-95.367, Country=United States, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6591, Lattitude=41.839005, Longtitude=-71.4373, Country=United States, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6592, Lattitude=36.668304, Longtitude=116.99719, Country=China, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6593, Lattitude=39.928894, Longtitude=116.388306, Country=China, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6594, Lattitude=39.961197, Longtitude=-82.9988, Country=United States, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6595, Lattitude=46.5394, Longtitude=15.515793, Country=Slovenia, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6596, Lattitude=23.1167, Longtitude=113.25, Country=China, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6597, Lattitude=41.127106, Longtitude=-73.4416, Country=United States, City=Rome }
+21:20:39.131 [restartedMain] INFO  jdev.server.jpa.JpaApplication - Base{ id=6598, Lattitude=40.551605, Longtitude=-74.4637, Country=United States, City=Rome }
+21:20:39.150 [restartedMain] INFO  jdev.server.jpa.JpaApplication - =========== after delete
+21:20:39.151 [restartedMain] INFO  jdev.server.jpa.JpaApplication - NO RECORDS
+21:20:39.152 [restartedMain] INFO  jdev.server.main.Application - Started Application in 4.876 seconds (JVM running for 5.297)
+21:24:10.304 [restartedMain] INFO  jdev.server.jpa.JpaApplication - =========== after create
+21:24:10.308 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+21:24:10.312 [restartedMain] INFO  jdev.server.jpa.JpaApplication - NO RECORDS
+21:24:10.313 [restartedMain] INFO  jdev.server.jpa.JpaApplication - =========== after update
+21:24:10.315 [restartedMain] INFO  jdev.server.jpa.JpaApplication - NO RECORDS
+21:24:10.316 [restartedMain] INFO  jdev.server.jpa.JpaApplication - =========== after delete
+21:24:10.317 [restartedMain] INFO  jdev.server.jpa.JpaApplication - NO RECORDS
+21:24:10.318 [restartedMain] INFO  jdev.server.main.Application - Started Application in 1.088 seconds (JVM running for 216.463)
+21:26:02.650 [restartedMain] INFO  jdev.server.jpa.JpaApplication - =========== after create
+21:26:02.652 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+21:26:02.655 [restartedMain] INFO  jdev.server.jpa.JpaApplication - NO RECORDS
+21:26:02.657 [restartedMain] INFO  jdev.server.jpa.JpaApplication - =========== after update
+21:26:02.659 [restartedMain] INFO  jdev.server.jpa.JpaApplication - NO RECORDS
+21:26:02.660 [restartedMain] INFO  jdev.server.jpa.JpaApplication - =========== after delete
+21:26:02.661 [restartedMain] INFO  jdev.server.jpa.JpaApplication - NO RECORDS
+21:26:02.661 [restartedMain] INFO  jdev.server.main.Application - Started Application in 1.038 seconds (JVM running for 328.806)
