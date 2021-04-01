@@ -32,8 +32,8 @@ public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(JpaApplication.class, args);
-       // ApplicationContext context = new AnnotationConfigApplicationContext(InjectionContext.class);
-        //SpringApplication.run(jdev.server.main.Application.class, args);
+        //ApplicationContext context = new AnnotationConfigApplicationContext(InjectionContext.class);
+       // SpringApplication.run(jdev.server.main.Application.class, args);
     }
     @Bean
     @Primary

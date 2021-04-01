@@ -14,6 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -59,7 +60,8 @@ public class JpaApplication implements CommandLineRunner {
         SpringApplication.run(JpaApplication.class, args);
     }
    // public static String path="tracker-core\\src\\main\\resources\\log_file.log"; //RUN PATH
-    public static String path="..\\tracker-core\\src\\main\\resources\\log_file.log"; //TEST PATH
+   // public static String path="..\\tracker-core\\src\\main\\resources\\log_file.log"; //TEST PATH
+  // public static String path="${'fpath'}"; //RUN PATH
 
     @Bean
     public static PropertySourcesPlaceholderConfigurer propertyConfigurer() {
@@ -69,9 +71,14 @@ public class JpaApplication implements CommandLineRunner {
     @Autowired
     TrackBaseRepository trackBaseRepository;
 
+    @Value("${fpath}")
+    private String path;
+
     @Override
     public void run(String... args) throws Exception {
         //read();
+        MDC.put("Head", Head);
+        log.info("===============HERE============ "+path);
         lines= new ArrayList<TrackBase>();
         Integer col0=0;
         Float col1=0f;
@@ -117,7 +124,6 @@ public class JpaApplication implements CommandLineRunner {
         catch (NullPointerException e3){
             e3.printStackTrace();
         }
-        MDC.put("Head", Head);
         log.info("=========== after create");
         try {
             read();

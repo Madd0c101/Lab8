@@ -67,3 +67,14 @@
 21:01:08.001 [poolScheduler2] INFO  jdev.tracker.services.ResponseTick - POST by tracker: "75,41.127106,-73.4416,United States,Norwalk" success
 21:01:12.002 [poolScheduler1] INFO  jdev.tracker.services.ResponseTick - POST by tracker: "77,30.293594,120.16141,China,Hangzhou" success
 21:01:16.000 [poolScheduler19] INFO  jdev.tracker.services.ResponseTick - POST by tracker: "78,40.551605,-74.4637,United States,Piscataway" success
+22:25:35.361 [main] INFO  jdev.tracker.services.ResponseTick - POST by tracker: null error
+22:25:36.001 [poolScheduler1] INFO  jdev.tracker.services.ResponseTick - POST by tracker: null error
+22:25:40.002 [poolScheduler5] INFO  jdev.tracker.services.ResponseTick - POST by tracker: "0,99.0,99.0,ip not found,ip not found" success
+22:25:44.001 [poolScheduler9] INFO  jdev.tracker.services.ResponseTick - POST by tracker: "0,99.0,99.0,ip not found,ip not found" success
+22:25:48.004 [poolScheduler15] INFO  jdev.tracker.services.ResponseTick - POST by tracker: "4,38.884003,-77.0221,United States,Washington" success
+22:25:52.001 [poolScheduler5] INFO  jdev.tracker.services.ResponseTick - POST by tracker: null error
+22:25:56.001 [poolScheduler13] INFO  jdev.tracker.services.ResponseTick - POST by tracker: "5,39.961197,-82.9988,United States,Columbus" success
+22:26:00.001 [poolScheduler9] INFO  jdev.tracker.services.ResponseTick - POST by tracker: "0,99.0,99.0,ip not found,ip not found" success
+22:26:04.001 [poolScheduler10] INFO  jdev.tracker.services.ResponseTick - POST by tracker: "7,35.684998,139.7514,Japan,Tokyo" success
+22:26:08.001 [poolScheduler12] INFO  jdev.tracker.services.ResponseTick - POST by tracker: "0,99.0,99.0,ip not found,ip not found" success
+22:26:12.002 [poolScheduler20] INFO  jdev.tracker.services.ResponseTick - POST by tracker: "9,35.684998,139.7514,Japan,Tokyo" success

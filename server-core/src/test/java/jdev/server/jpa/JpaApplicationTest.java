@@ -8,6 +8,7 @@ import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.slf4j.MDC;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -46,11 +47,12 @@ public class JpaApplicationTest {
     @Autowired
     private TrackBaseRepository repository;
 
+    @Value("${fpath}")
+    private String path;
+
     @Test
     public void run() throws Exception {
         JpaApplication j = new JpaApplication();
-        j.path = "..\\tracker-core\\src\\main\\resources\\log_file.log";
-        //не сработает, нужно раскомментировать строку в классе JPAApplication
         j.run();
         boolean result=false;
         for (int i = 0; i < j.out2.length; i++) {

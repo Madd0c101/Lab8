@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -46,7 +47,7 @@ public class JpaApplication implements CommandLineRunner {
     public static String[] out2;
     public static TrackBase[] arr;
    // public static String path="tracker-core\\src\\main\\resources\\log_file.log"; //RUN PATH
-     public static String path="..\\tracker-core\\src\\main\\resources\\log_file.log"; //TEST PATH
+   //  public static String path="..\\tracker-core\\src\\main\\resources\\log_file.log"; //TEST PATH
     public static void main(String[] args) {
         SpringApplication.run(JpaApplication.class, args);
     }
@@ -59,6 +60,9 @@ public class JpaApplication implements CommandLineRunner {
 
     @Autowired
     TrackBaseRepository trackBaseRepository;
+
+    @Value("${fpath}")
+    private String path;
 
     @Override
     public void run(String... args) throws Exception {
